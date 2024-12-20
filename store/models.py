@@ -28,6 +28,9 @@ class Product(models.Model):
                                  related_name='products',
                                  on_delete=models.CASCADE)
 
+    def __str__(self):
+        return f"Product {self.name} for {self.price}$ in {self.category}"
+
 
 class Category(models.Model):
     """
@@ -43,3 +46,7 @@ class Category(models.Model):
     """
     name = models.CharField(max_length=50)
     description = models.TextField()
+
+    def __str__(self):
+        return f"Category {self.name.capitalize()}"
+
