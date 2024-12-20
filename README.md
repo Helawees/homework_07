@@ -1,7 +1,7 @@
 **ДЗ №7: Создание проекта, работа с моделями и продвинутая настройка админки.**
-	Запуск: `python manage.py runserver`
-	Кастомная команда: `python manage.py generate_test_data` 
-	Зависимости: requirements.txt
+	Запуск: `python manage.py runserver`  
+	Кастомная команда: `python manage.py generate_test_data`   
+	Зависимости: requirements.txt  
 	
 **Описание/Пошаговая инструкция выполнения домашнего задания:**
  - Создать Django проект и приложение:   
